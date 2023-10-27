@@ -45,3 +45,14 @@ numbers.Should().HaveCount(4, "because we thought we put four items in the colle
 ```
 
 두 번째 실패한 예제의 좋은 점은 메시지와 함께 예외가 발생한다는 것입니다.
+
+
+
+[단위 테스트 구조(AAA 패턴, 테스트 픽스터, 명명법)](https://kukim.tistory.com/47)
+
+## AUT, MUT, CUT, OUT 등으로도 불릴 수 있는데요.
+- SUT - System Under Test
+- AUT - Application Under Test
+- MUT - Method Under Test
+- CUT - Class Under Test
+- OUT - Object Under Test
